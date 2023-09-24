@@ -1,0 +1,9 @@
+footer {
+  background-color: #333; /* Color de fondo del pie de página */
+  color: #fff; /* Color del texto del pie de página */
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

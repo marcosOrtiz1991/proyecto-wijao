@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NbComponent } from './nb/nb.component';
+import { HomeRoutingModule } from '../inicio/home-routing.module';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-    NbComponent
+    NbComponent,
+    FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeRoutingModule
   ],
   exports: [
-    NbComponent
+    NbComponent,
+    FooterComponent
   ]
 })
 export class NavbarModule { }
