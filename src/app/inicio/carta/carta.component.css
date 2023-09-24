@@ -1,0 +1,30 @@
+h1{
+  text-align: center;
+  color: #000;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #3a795a;
+  color: aliceblue;
+}
+
+tr:nth-child(even) {
+  background-color: #bde9c8;
+}
+
+tr:nth-child(odd) {
+  background-color: #7ea889;
+}
+
+
